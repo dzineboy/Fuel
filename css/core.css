@@ -262,7 +262,7 @@ img.donation_txt {
 .news {
 	width:679px;
 	height:48px;
-	margin:75px auto;
+	margin:0 auto;
 	background: url(../images/news_bg.png) no-repeat top right;
 }
 
