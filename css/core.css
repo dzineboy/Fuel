@@ -258,3 +258,23 @@ img.donation_txt {
 	padding-right:12px;
 	}
 
+
+.news {
+	width:679px;
+	height:48px;
+	margin:75px auto;
+	background: url(../images/news_bg.png) no-repeat top right;
+}
+
+.news p {
+	font:12px/39px 'SansationBold', Arial, sans-serif;
+	margin-left:20px;
+	color:#FFFFFF;
+}
+
+
+.news span {
+	color:#fa6109;
+}
+
+
