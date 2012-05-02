@@ -125,8 +125,12 @@ div.socialnetwork {
 	color:rgba(255, 255, 255, 0.6);
 }
 
+div.socialnetwork p {
+	margin:0; padding:0;
+}
+
 div.socialnetwork img {
-	padding-left:15px;
+	padding:9px 0 9px 15px;
 }
 
 div.socialnetwork p.fb-like {
@@ -186,7 +190,6 @@ height:19px;
 margin:0 auto;
 }
 
-
 #leftcolumn {
 		width: 129px;
 		float: left;
@@ -205,8 +208,6 @@ margin:0 auto;
 background: url(../images/secondary_page_bg.png) repeat-y;
 }
   
-
-
 h1 {
 		font:18px/120% 'SansationBold', Arial, sans-serif;letter-spacing: 0;
 		color:#ff5d00;
@@ -324,7 +325,7 @@ a.connected {
 	z-index:15;
 }
 	
-.belief {background: url(../images/secondary_belief_bg.png) no-repeat top right;}
+/*.belief {background: url(../images/secondary_belief_bg.png) no-repeat top right;}
 
 .who {background: url(../images/secondary_who_bg.png) no-repeat top right;}
 
@@ -332,7 +333,7 @@ a.connected {
 
 .donation {background: url(../images/secondary_donation_bg.png) no-repeat top right;}
 
-.contact {background: url(../images/secondary_contact_bg.png) no-repeat top right;}
+.contact {background: url(../images/secondary_contact_bg.png) no-repeat top right;}*/
 
 .second_saterday {background: url(../images/second_saterday_bg.png) no-repeat top right;  margin-right:12px;}
 
