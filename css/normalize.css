@@ -52,3 +52,5 @@ input, textarea, select {
 	}
 	
 select { padding: 0; }
+
+img {border:none;}

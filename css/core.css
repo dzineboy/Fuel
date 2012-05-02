@@ -1,64 +1,191 @@
 @charset "UTF-8";
-	
+
+body {
+		font:0.813em/140% 'SansationRegular', Arial, sans-serif;
+		color:#333333;
+		background:#000000 url(../images/hp/firestream_hpbg.jpg) no-repeat;
+}
+
+a {color:#C60; text-decoration:none;}
+a:hover, a:active, a:focus {color:#F90; text-decoration:underline; outline:none;}
+
 #homepage {
 position:relative;
-width:100%;
-height:493px;
-min-height:493px;
+width:837px;
+height:975px;
+min-height:975px;
 margin:0 auto;
-background: url(../images/homepage_bg.png) repeat-y;
+background:url(../images/hp/homepage_bdr.png) repeat-y;
 }
 
-/*
-#hp_content2 {
-width:783px;
+#page {
+position:absoulte;
+width:837px;
+height:975px;
+min-height:975px;
 margin:0 auto;
-}
-*/
-
-#homepage_footer {
-	position:absolute; bottom:0; right:0;
-		margin:0;
-		padding-right:12px;
-		font:9px/120% Verdaina, Arial, sans-serif;
-		color:#999999;
-		text-align:right;
-		
+background:url() repeat-y;
 }
 
-.second_saterday_logo {
-width:219px;
-float:right;
-margin-right:20px;
+header img {
+		width:213px;
+		position:absolute; top:18px; left:24px;
 }
 
-.hp_sphere	{
+section.welcome, section.hero {
+	position:absolute; top:147px; left:30px;
+	width:300px;
+	height:130px;
+	background-color:#2A0201;
+	background-color:rgba(42, 2, 1, 0.3);
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;	
+	-moz-box-shadow:5px 5px 5px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow:5px 5px 5px rgba(0, 0, 0, 0.3);
+	box-shadow:5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+section.welcome p {
+	font-size:1.125em;
+	padding:1.5em;
+	color:#fa9411;
+	text-shadow:rgba(2, 2, 2, 0.3);
+}
+
+section.welcome img {
+	display:block;
+	margin:1em 0;
+}
+
+section.hero {
+	position:absolute; top:337px; left:30px;
+	width:300px; /* can be removed */
+	height:237px;
+}
+
+section.hero img {opacity:0.8;filter:alpha(opacity=80);}
+
+section.nav	{
 position:relative;
-top:50px;
-width:557px;
-height:492px;
+top:5px;
+left:143px;
+width:650px;
+height:599px;
+margin:0 auto;
+background: url(../images/sphere_shadow.png) no-repeat;
+/*	border:1px solid #00f;*/
+}
+
+nav.sphere	{
+position:absolute;
+top:0;
+left:0;
+width:650px;
+height:599px;
 margin:0 auto;
 background: url(../images/sphere.png) no-repeat;
 /*	border:1px solid #00f;*/
 }
 
-#container {
-width:777px;
-margin:0 auto;
-background: url(../images/secondary_page_bg.png) repeat-y;
+section.cta {
+	position:relative; top:32px; left:20px;
 }
- 
-.btm_bdr {
-width:777px;
-height:19px;
-margin:0 auto;
+
+section.cta img {margin-right:10px;}
+
+section.footer {
+		position:relative;
+		top:72px;
+		left:10px;
+		width:821px;
+		height:194px;
+		font:0.875em/150% 'SansationBold', Arial, sans-serif;
+		color:#FA9411;
+		padding:20px;
+		background:url(../images/footer_bg.png) no-repeat;
 }
- 
+
+div.info {
+	float:left;
+	width:404px;
+}
+
+div.footer_nav {
+	float:left;
+	width:219px;
+	
+}
+
+div.socialnetwork {
+	float:left;
+	width:155px;
+	text-align:right;
+	color:#000000;
+	color:rgba(255, 255, 255, 0.6);
+}
+
+div.socialnetwork img {
+	padding-left:15px;
+}
+
+div.socialnetwork p.fb-like {
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
+
+div.legal {
+	clear:both;
+	padding:20px 43px 20px 0;
+	text-align:right;
+	color:#000000;
+	color:rgba(255, 255, 255, 0.6);
+}
+
+div.legal a {
+	opacity:0.6;
+	filter:alpha(opacity=60);
+	}
+
+div.footer_nav a {display:block; padding-bottom:0.5em; color:#FA9411; text-decoration:none;}
+div.footer_nav a:hover, div.footer_nav a:active, div.footer_nav a:focus {text-decoration:underline; outline:none;}
+
+div.hpbtmbdr {
+		position:relative;
+		width:837px;
+		height:13px;
+		margin:0 auto;
+		padding:12px 0 6px 0;
+		background:url(../images/hp/homepage_btmbdr.png) no-repeat;
+}
+
+
+/* 
+	========= Begin Secoundary Pages Section =========
+	
+*/
+
 #header {
 position:relative;
 }	 
  
 .sphere {position:absolute; left:7px; z-index:1;}
+
+#footer {
+		clear: both;
+		padding:12px 24px 6px 12px;
+		font:9px/120% Verdaina, Arial, sans-serif;
+		color:#999999;
+		text-align:right;
+		z-index:2;
+}
+
+.btm_bdr {
+width:777px;
+height:19px;
+margin:0 auto;
+}
+
 
 #leftcolumn {
 		width: 129px;
@@ -72,20 +199,13 @@ position:relative;
 		min-height:600px;
 }
 
-#footer {
-		clear: both;
-		padding:12px 24px 6px 12px;
-		font:9px/120% Verdaina, Arial, sans-serif;
-		color:#999999;
-		text-align:right;
-		z-index:2;
+#container {
+width:777px;
+margin:0 auto;
+background: url(../images/secondary_page_bg.png) repeat-y;
 }
+  
 
-body {
-		font:12px/140% 'SansationRegular', Arial, sans-serif;
-		color:#333333;
-		background:#7a0203 url(../images/firestream_canvas.jpg) repeat-x;
-}
 
 h1 {
 		font:18px/120% 'SansationBold', Arial, sans-serif;letter-spacing: 0;
@@ -170,69 +290,39 @@ img {border: 0;}
 	 
 .title {padding:0 2em;}	 
 
-.hp_sphere a i { visibility: hidden; }
+a i { visibility: hidden; }
 
-.hp_sphere a.contact_us_link:hover i { visibility: visible; }
+a.events:hover i, a.contact:hover i, a.who:hover i, a.beliefs:hover i, a.donations:hover i, a.connected:hover i {visibility: visible;}
 	
-.hp_sphere a.get_connected_link:hover i { visibility: visible; }
-		
-.hp_sphere a.who_we_are_link:hover i { visibility: visible; }
-			
-.hp_sphere a.our_beliefs_link:hover i { visibility: visible; }
-				
-.hp_sphere a.donation_link:hover i { visibility: visible; }
-
-a.contact_us_link {
-	position:absolute; top:55px; left:134px;
+a.events {
+	position:absolute; top:54px; left:158px;
 	z-index:5;
 }
-	
-a.get_connected_link {
-	position:absolute; top:39px; left:337px;
+
+a.contact {
+	position:absolute; top:61px; left:393px;
 	z-index:10;
 }
-
-a.who_we_are_link {
-	position:absolute; top:147px; left:91px;
-	z-index:15;
-}
-
-a.our_beliefs_link {
-	position:absolute; top:126px; left:214px;
+	
+a.who {
+	position:absolute; top:157px; left:106px;
 	z-index:20;
 }
 
-
-a.donation_link {
-	position:absolute; top:173px; left:352px;
+a.beliefs {
+	position:absolute; top:131px; left:227px;
 	z-index:25;
 }
 
-img.contact_us_txt {
-		position:absolute; top:407px; left:70px;
-		z-index:30;
-}		
+a.donations {
+	position:absolute; top:159px; left:414px;
+	z-index:30;
+}
 
-img.get_connected_txt {
-		position:absolute; top:423px; left:-135px;
-		z-index:30;
-}		
-
-img.who_we_are_txt {
-		position:absolute; top:315px; left:111px;
-		z-index:30;
-}		
-
-img.our_beliefs_txt {
-		position:absolute; top:336px; left:-12px;
-		z-index:30;
-}		
-
-img.donation_txt {
-		position:absolute; top:290px; left:-150px;
-		z-index:30;
-}		
-		
+a.connected {
+	position:absolute; top:285px; left:217px;
+	z-index:15;
+}
 	
 .belief {background: url(../images/secondary_belief_bg.png) no-repeat top right;}
 
@@ -246,18 +336,7 @@ img.donation_txt {
 
 .second_saterday {background: url(../images/second_saterday_bg.png) no-repeat top right;  margin-right:12px;}
 
-
 .ssp_sidenav {margin-left:-15px !important;}
-
-
-
-.fb-like {
-	float:right; margin-top:58px;
-	opacity:0.5;
-	filter:alpha(opacity=50);
-	padding-right:12px;
-	}
-
 
 .news {
 	width:679px;
@@ -272,9 +351,9 @@ img.donation_txt {
 	color:#FFFFFF;
 }
 
+.news span {color:#fa6109;}
 
-.news span {
-	color:#fa6109;
-}
+
+
 
 
