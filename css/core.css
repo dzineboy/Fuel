@@ -114,7 +114,10 @@ div.info {
 div.footer_nav {
 	float:left;
 	width:219px;
-	
+}
+
+div.footer_nav a {
+		line-height:119%;
 }
 
 div.socialnetwork {
@@ -356,6 +359,7 @@ div.second_saterday {background: url(../images/second_saterday_bg.png) no-repeat
 
 .news span {color:#fa6109;}
 
+img[alt~='External'] {padding-left:0.5em; vertical-align: text-bottom;}
 
 
 
