@@ -325,17 +325,19 @@ a.connected {
 	z-index:15;
 }
 	
-/*.belief {background: url(../images/secondary_belief_bg.png) no-repeat top right;}
+div.events {background: url(../images/watermarks/calendar.png) no-repeat top right;}
 
-.who {background: url(../images/secondary_who_bg.png) no-repeat top right;}
+div.beliefs {background: url(../images/watermarks/beliefs.png) no-repeat top right;}
 
-.connected {background: url(../images/secondary_connect_bg.png) no-repeat top right;}
+div.who {background: url(../images/watermarks/who.png) no-repeat top right;}
 
-.donation {background: url(../images/secondary_donation_bg.png) no-repeat top right;}
+div.connected {background: url(../images/watermarks/connected.png) no-repeat top right;}
 
-.contact {background: url(../images/secondary_contact_bg.png) no-repeat top right;}*/
+div.donation {background: url(../images/watermarks/donations.png) no-repeat top right;}
 
-.second_saterday {background: url(../images/second_saterday_bg.png) no-repeat top right;  margin-right:12px;}
+div.contact {background: url(../images/watermarks/contact.png) no-repeat top right;}
+
+div.second_saterday {background: url(../images/second_saterday_bg.png) no-repeat top right;  margin-right:12px;}
 
 .ssp_sidenav {margin-left:-15px !important;}
 
