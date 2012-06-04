@@ -8,4 +8,6 @@ Author: Daniel Scott
 @import "normalize.css";
 @import "font.css";
 @import "core.css";
-
+/* HTML5 Video Player */
+@import "../lib/skins/jquery.ui.themes/kaltura-dark/jquery-ui-1.7.2.css";
+@import "mwEmbed-player-static.css";
